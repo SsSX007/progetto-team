@@ -1,3 +1,4 @@
+
 /* RESET & VARIABILI GLOBALI */
 * {
     margin: 0;
@@ -20,6 +21,7 @@ body {
     background-color: #f8fafc;
     color: var(--text-color);
 }
+
 
 /* HEADER MAIN CONTAINER */
 .main-header {
@@ -215,4 +217,40 @@ body {
     .menu-toggle-checkbox:checked ~ .menu-toggle-label .close-icon {
         display: block;
     }
+}
+.servizi {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.servizi h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.servizi p {
+    color: #666;
+}
+
+.contenitore {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p {
+    line-height: 1.5;
 }
